@@ -1,0 +1,51 @@
+.myorder{
+    margin: auto;
+    width: 80%;;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+.myorder > h1{
+    padding: 10px 30px;
+    border-bottom: 1px solid black;
+}
+.myorder > .orderGird{
+    position: relative;
+    display: grid;
+    gap: 40px;
+    padding: 10px 30px;
+    grid-template-columns: repeat(1,1fr);
+    /* border: 1px solid black; */
+}
+.myorder > .orderGird > .box{
+    width: 100%;
+    height: auto;;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid red; */
+}
+.myorder > .orderGird > .box > img{
+    width: 120px;
+}
+.myorder > .orderGird > .box > .orderData{
+    padding: 10px 20px;;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 700px;
+    /* border: 1px solid black; */
+}
+.myorder > .orderGird > .box > .orderData > button{
+    background: none;
+    padding: 1px;
+    border: none;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+.myorder > .orderGird > .box > .orderData p{
+    color: red;
+    text-align: end;
+}
+.myorder > .orderGird > .box > .orderData h5{
+    color: darkgreen;
+    font-weight: 400;
+}

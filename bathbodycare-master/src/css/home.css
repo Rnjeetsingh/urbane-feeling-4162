@@ -1,0 +1,77 @@
+.homeMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    /* width: 100%; */
+    text-align: center;
+    /* border: 1px solid red;; */
+}
+.homeMain > .homeImgBx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black;; */
+}
+.homeMain > .homeImgBx > img{
+    width: 85%;;
+}
+
+.homeMain > .homeGrid{
+    width: 70%;
+    margin-top: 30px;;
+    display: grid;
+    gap: 20px;
+    /* border: 1px solid blue; */
+    grid-template-columns: repeat(2,1fr);
+}
+.homeMain > .homeGrid > .grid{
+    /* background-color: red; */
+}
+.homeMain > .homeGrid > .grid > img{
+    width: 100%;
+}
+
+.homeMain > .homeShopCategory{
+    position: relative;
+    width: 80%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+.homeMain > .homeShopCategory > h2{
+    position: relative;
+    background-color: white;
+    z-index: 120;
+    padding: 10px 20px;
+    /* border: 1px solid black;; */
+}
+.homeMain > .homeShopCategory::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 1px;
+    width: 100%;
+    z-index: 5;
+    background-color: black;
+}
+.homeMain > .homeCategory{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.homeMain > .homeCategory > .Homecate{
+    /* border: 1px solid black; */
+    width: 180px;
+}
+.homeMain > .homeCategory > .Homecate img{
+    width: 100%;
+}
+
+.homeMain > .homeContent{
+    width: 70%;
+}

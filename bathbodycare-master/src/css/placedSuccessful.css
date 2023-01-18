@@ -1,0 +1,37 @@
+.success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.success > .box{
+    margin-top: 30px;
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.success > .box > .imgBx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.success > .box > .imgBx > img{
+    width: 50%;
+    object-fit: cover;
+}
+
+.success > .box > .successText{
+    text-align: center;
+}
+.success > .box > .successText > a > button{
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: 1px solid green;
+    color: green;
+    background: none;
+    cursor: pointer;
+}

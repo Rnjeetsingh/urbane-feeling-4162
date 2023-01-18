@@ -1,0 +1,33 @@
+.profiledata{
+
+    padding: 20px 50px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.profiledata > .inputBx{
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid black; */
+}
+
+.profiledata > .inputBx > span:first-child{
+    font-weight: 500;
+}
+.profiledata > .inputBx > span{
+    font-size: 18px;
+}
+.profiledata > .inputBx > button{
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    
+}

@@ -1,0 +1,90 @@
+header{
+    position: sticky;
+    top: 0;
+    /* padding: 20px 0px; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+    z-index: 999;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+header > .navBox1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+header > .navBox1 > .navCompo{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px 0;
+    /* border: 1px solid black;; */
+}
+
+header > .navBox1 > .navCompo > a > img{
+    width: 350px;
+}
+header > .navBox1 > .navCompo > .navIcon > a{
+    position: relative;
+    padding: 5px 10px;
+    color: black;
+    /* border: 1px solid black; */
+}
+header > .navBox1 > .navCompo > .navIcon > a.loggedIn:hover .profilePopup{
+    visibility: visible;
+}
+
+header > .navBox1 > .navCompo > .navIcon > a > .profilePopup{
+    position: absolute;
+    left: -50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    width: 100px;
+    padding: 10px 20px;
+    visibility: hidden;
+    border: 1px solid black;
+}
+header > .navBox1 > .navCompo > .navIcon > a > .profilePopup > a{
+    text-decoration: none;
+    color: black;
+}
+header > .navBox1 > .navCompo > .navIcon > a > .profilePopup > a:hover{
+    text-decoration: underline;
+}
+header > .navBox1 > .navCompo > .navIcon{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+header > .navBox1 > .navCompo > .navIcon > i{
+    font-size: 25px;
+}
+header > .navBox1 > .navCompo > .navIcon > input{
+    width: 350px;
+    padding: 5px 20px;
+    border-radius: 3px;
+    border: 1px solid black;;
+}
+header > .navBox2{
+    display: flex;
+    justify-content: space-around;;
+    /* border: 1px solid black; */
+}
+header > .navBox2 > a{
+    padding: 10px 5px;
+    font-size: 12px;;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+}
+header > .navBox2 > a:hover{
+    border-bottom: 2px solid darkblue;
+}

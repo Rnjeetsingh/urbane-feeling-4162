@@ -1,0 +1,159 @@
+.cart{
+    width: 80%;
+    margin: auto;
+    padding: 0 0 50px 0;
+    /* border: 1px solid black; */
+}
+.cart > img{
+    width: 100%;
+}
+.cart > .cartMain{
+    min-height: 50vh;
+    display: flex;
+    /* justify-content: space-between; */
+    /* border: 1px solid red; */
+}
+.cart > .cartMain > .cartBox:first-child{
+    width: 100%;
+    border-right: 1px solid #cccc;
+}
+.cart > .cartMain > .cartBox{
+    width: 50%;
+    /* border: 1px solid brown; */
+}
+.cart > .cartMain > .cartBox:first-child > .cartItem{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid #cccc;
+    border-left: 1px solid #cccc;
+}
+.cart > .cartMain > .cartBox:first-child > .cartItem > .first_item{
+    display: flex;
+    gap: 20px;
+    /* border: 1px solid black; */
+}
+.cart > .cartMain > .cartBox:first-child > .cartItem > .first_item button,
+.cart > .cartMain > .cartBox:first-child > .cartItem > .first_item select{
+    padding: 5px 10px;
+    margin: 10px;
+}
+.cart > .cartMain > .cartBox:first-child > .cartItem > .first_item button{
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: black;
+}
+.cart > .cartMain > .cartBox:first-child > .cartItem > .first_item > img{
+    width: 180px;
+    /* object-fit: cover; */
+}
+.cart > .cartMain > .cartBox:first-child > .cartItem > .first_item > .mainSpan h4{
+    width: 80%;
+    /* border: 1px solid black; */
+}
+.cart > .cartMain > .cartBox:first-child > .cartItem > .second_item{
+    display: flex;
+    gap: 30px;
+    width: 50%;
+    padding: 10px 20px;
+    /* border: 1px solid royalblue; */
+}
+.cart > .cartMain > .cartBox:first-child > .cartItem > .second_item > span{
+    display: flex;
+    flex-direction: column;
+    /* color: ; */
+}
+
+/*  */
+.cart > .cartMain > .cartBox:last-child{
+    position: sticky;
+    top: 110px;
+    padding: 10px 20px;
+    height: 100vh;
+    /* border: 1px solid black; */
+}
+.cart > .cartMain > .cartBox:last-child > .coupen{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    /* border: 1px solid black; */
+}
+.cart > .cartMain > .cartBox:last-child > .coupen .inputbx{
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+.cart > .cartMain > .cartBox:last-child > .coupen .inputbx > input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #ccc;
+}
+.cart > .cartMain > .cartBox:last-child > .coupen .inputbx > button{
+    padding: 5px 30px;
+    border-radius: 5px;
+    background-color: #00a1e0;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.cart > .cartMain > .cartBox:last-child > .method{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    /* border: 1px solid black; */
+}
+.cart > .cartMain > .cartBox:last-child > .method > .inputbx select{
+    position: relative;
+    display: flex;
+    padding: 10px 80px;
+    text-align: start;
+    gap: 20px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+.cart > .cartMain > .cartBox:last-child > .orDetails{
+    padding: 10px 0;
+    /* border: 1px solid black; */
+}
+.cart > .cartMain > .cartBox:last-child > .orDetails > h4,
+.cart > .cartMain > .cartBox:last-child > .orDetails > h3{
+    line-height: 0;
+    font-weight: 500;
+}
+.cart > .cartMain > .cartBox:last-child > .orDetails > small{
+    color: gray;
+    line-height: 0;;
+    /* border: 1px solid black; */
+}
+.cart > .cartMain > .cartBox:last-child > .priceData{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    /* border: 1px solid black; */
+}
+.cart > .cartMain > .cartBox:last-child > .priceData > span:nth-child(even){
+    text-align: end;
+}
+.cart > .cartMain > .cartBox:last-child > .placeOrder{
+    margin-top: 40px;
+    border-top: 2px dashed black;
+}
+.cart > .cartMain > .cartBox:last-child > .placeOrder > h2{
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.cart > .cartMain > .cartBox:last-child > .placeOrder > a > button{
+    width: 100%;
+    padding: 8px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #363636;
+}

@@ -1,0 +1,80 @@
+.loginPage{
+    width: 65%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.loginPage > .loginImg{
+    /* width: 60%; */
+    text-align: center;
+}
+.loginPage > .loginText > h1{
+    font-weight: 400;
+    font-size: 25px;
+}
+.loginPage > .loginText{
+    /* width: 60%; */
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(60, 60, 60);;
+}
+
+.loginPage >.loginContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid black; */
+}
+.loginPage >.loginContainer > .loginBx{
+    padding: 0 10px;
+    min-height: 80vh;
+    margin: 20px;
+    /* border: 1px solid red; */
+}
+.loginPage >.loginContainer > .loginBx:first-child{
+    border-right: 1px solid gray;
+}
+.loginPage >.loginContainer > .loginBx > h3{
+    text-align: center;
+}
+.loginPage >.loginContainer > .loginBx > .loginBtnBx{
+    /* border: 1px solid lime; */
+}
+.loginPage >.loginContainer > .loginBx > .loginBtnBx > button{
+    padding: 10px 15px;
+    margin: 15px;
+    background-color: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.loginPage >.loginContainer > .loginBx > .loginBtnBx > button:first-child{
+    color: blue;
+}
+.loginPage >.loginContainer > .loginBx > .loginBtnBx > button:last-child{
+    color: red;
+}
+.loginPage >.loginContainer > .loginBx > form > .loginInputBx{
+    display: grid;
+    gap: 5px;
+    width: 85%;
+    margin: 15px 0;
+    grid-template-columns: repeat(1,1fr);
+    /* border: 1px solid pink; */
+}
+.loginPage >.loginContainer > .loginBx > form > .loginInputBx > input{
+    padding: 5px 10px;
+}
+.loginPage >.loginContainer > .loginBx >  center  button,
+.loginPage >.loginContainer > .loginBx > form center  button{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.loginPage >.loginContainer > .loginBx a{
+    text-decoration: none;
+    color: royalblue;
+}
+.loginPage >.loginContainer > .loginBx a:hover{
+    text-decoration: underline;
+}

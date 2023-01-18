@@ -1,0 +1,46 @@
+.mainRegister{
+    min-height: 100vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+.mainRegister > .registerTop{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.mainRegister > .registerTop > h1{
+    font-weight: 400;
+    padding: 5px 10px;
+    border-bottom: 1px solid black;
+}
+.mainRegister > .registerFm{
+    width: 50%;
+    display: grid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.mainRegister > .registerFm > form > .inputReFm{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: space-between;
+    margin: 10px;
+    /* border: 1px solid red; */
+}
+.mainRegister > .registerFm > form > .inputReFm > input{
+    width: 80%;
+    margin: 10px 50px;;
+    border: none;
+    border: 1px solid rgb(212, 211, 211);
+    padding: 5px 10px;
+}
+.mainRegister > .registerFm > form > .inputReFm > button{
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
